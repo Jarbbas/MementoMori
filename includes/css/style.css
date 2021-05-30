@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Zilla+Slab:wght@300&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato" , sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#666
+}
+
+h2{ 
+    /* border: 2px solid;
+    border-color: #666; */
+    padding: 1rem;
+    position: absolute;
+    text-align: center;
+    color: #666;
+    font-size: 20px;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+}
+
+#sectionTwo h2{
+    top: 100%;
+    width: 26.5%;
+    left: 35.5%;
+}
+
+#clockTitle h2{
+    border: 2px solid;
+    top: 8%;
+    width: 26.5%;
+    left: 35.5%;
+    color: whitesmoke;
+    opacity: 0.70;
+}
+
+#sectionThree h2{
+    color: whitesmoke;
+    border: none;
+    position: relative;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url('../../includes/img/moon.jpg');
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url('../../includes/img/skulls.jpg');
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url('../../includes/img/me.jpeg');
+    min-height: 400px;
+}
+.pimg4{
+    background-image: url('../../includes/img/skull2.jpg');
+    min-height: 400px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #f4f4f4f4;
+    color: #666;
+    padding-top: 5rem;
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+}
+
+.pimg2 .ptext .border, .pimg3 .ptext .border, .pimg4 .ptext .border {
+    color: whitesmoke;
+}
+
+.ptext .border.transparent{
+    background-color: transparent;
+}
+
+
+/************* css do relogio ************/
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 29%;
+    padding-top: 9%;
+    text-shadow: 0 0 30px #fff;
+  }
+  
+  #clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #1f2020;
+    display: inline-block;
+  }
+  
+  #clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #4d5251;
+    display: inline-block;
+  }
+  
+  .smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+    
+  }
+  /******************************/
+
+@media(max-width: 568px) {
+    .pimg1, .pimg2, .pimg3, .pimg4{
+        background-attachment: scroll;
+    }
+
+    #clockdiv {
+        padding-left: 15%;
+        padding-right: 13%;
+    }
+    #clockdiv > div {
+        margin-bottom: 1rem;
+    }
+}
