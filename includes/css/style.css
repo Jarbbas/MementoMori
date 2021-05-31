@@ -1,161 +1,225 @@
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Zilla+Slab:wght@300&display=swap');
 
-body, html {
-    height: 100%;
-    margin: 0;
-    font-size: 16px;
-    font-family: "Lato" , sans-serif;
+body,
+html {
+    height     : 100%;
+    margin     : 0;
+    font-size  : 16px;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     line-height: 1.8em;
-    color:#666
+    color      : #666
 }
 
-h2{ 
-    /* border: 2px solid;
-    border-color: #666; */
-    padding: 1rem;
-    position: absolute;
-    text-align: center;
-    color: #666;
-    font-size: 20px;
+h2 {
+    padding       : 1rem;
+    position      : absolute;
+    text-align    : center;
+    color         : #666;
+    font-size     : 20px;
     letter-spacing: 9px;
     text-transform: uppercase;
 }
 
-#sectionTwo h2{
-    top: 100%;
+#sectionTwo h2 {
+    top  : 100%;
     width: 26.5%;
-    left: 35.5%;
+    left : 35.5%;
 }
 
-#clockTitle h2{
-    border: 2px solid;
-    top: 8%;
-    width: 26.5%;
-    left: 35.5%;
-    color: whitesmoke;
+#clockTitle h2 {
+    border : 2px solid;
+    top    : 8%;
+    width  : 26.5%;
+    left   : 35.5%;
+    color  : whitesmoke;
     opacity: 0.70;
 }
 
-#sectionThree h2{
-    color: whitesmoke;
-    border: none;
+#sectionThree h2 {
+    color   : whitesmoke;
+    border  : none;
     position: relative;
 }
 
-.pimg1, .pimg2, .pimg3, .pimg4{
-    position: relative;
-    opacity: 0.70;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+    position             : relative;
+    opacity              : 0.70;
+    background-position  : center;
+    background-size      : cover;
+    background-repeat    : no-repeat;
     background-attachment: fixed;
 }
 
-.pimg1{
+.pimg1 {
     background-image: url('../../includes/img/moon.jpg');
-    min-height: 100%;
+    min-height      : 100%;
 }
-.pimg2{
+
+.pimg2 {
     background-image: url('../../includes/img/skulls.jpg');
-    min-height: 400px;
+    min-height      : 400px;
 }
-.pimg3{
+
+.pimg3 {
     background-image: url('../../includes/img/me.jpeg');
-    min-height: 400px;
+    min-height      : 400px;
 }
-.pimg4{
+
+.pimg4 {
     background-image: url('../../includes/img/skull2.jpg');
-    min-height: 400px;
+    min-height      : 400px;
 }
 
 .section {
     text-align: center;
-    padding: 50px 80px;
+    padding   : 50px 80px;
 }
 
-.section-light{
+.section-light {
     background-color: #f4f4f4f4;
-    color: #666;
-    padding-top: 5rem;
+    color           : #666;
+    padding-top     : 5rem;
 }
 
-.section-dark{
+.section-dark {
     background-color: #282e34;
-    color: #ddd;
+    color           : #ddd;
 }
 
-.ptext{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: whitesmoke;
-    font-size: 30px;
+.ptext {
+    position      : absolute;
+    top           : 50%;
+    width         : 100%;
+    text-align    : center;
+    color         : whitesmoke;
+    font-size     : 30px;
     letter-spacing: 9px;
     text-transform: uppercase;
 }
 
-.ptext .border{
+.ptext .border {
     background-color: whitesmoke;
-    color: black;
-    padding: 20px;
+    color           : black;
+    padding         : 20px;
 }
 
-.pimg2 .ptext .border, .pimg3 .ptext .border, .pimg4 .ptext .border {
+.pimg2 .ptext .border,
+.pimg3 .ptext .border,
+.pimg4 .ptext .border {
     color: whitesmoke;
 }
 
-.ptext .border.transparent{
+.ptext .border.transparent {
     background-color: transparent;
 }
 
 
 /************* css do relogio ************/
 
-#clockdiv{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 30px;
-    padding-left: 29%;
-    padding-top: 9%;
-    text-shadow: 0 0 30px #fff;
-  }
-  
-  #clockdiv > div{
-    padding: 10px;
+#clockdiv {
+    font-family : sans-serif;
+    color       : #fff;
+    display     : inline-block;
+    font-weight : 100;
+    text-align  : center;
+    font-size   : 30px;
+    padding-left: 25%;
+    /* padding-top: 11%; */
+    padding-top: 9rem;
+    text-shadow : 0 0 30px #fff;
+}
+
+#clockdiv>div {
+    padding      : 10px;
     border-radius: 3px;
-    background: #1f2020;
-    display: inline-block;
-  }
-  
-  #clockdiv div > span{
-    padding: 15px;
+    background   : #1f2020;
+    display      : inline-block;
+}
+
+#clockdiv div>span {
+    padding      : 15px;
     border-radius: 3px;
-    background: #4d5251;
-    display: inline-block;
-  }
-  
-  .smalltext{
+    background   : #4d5251;
+    display      : inline-block;
+}
+
+.smalltext {
     padding-top: 5px;
-    font-size: 16px;
-    
-  }
-  /******************************/
+    font-size  : 16px;
+
+}
+
+/******************************/
+
+@media (max-width: 1440px) {
+    #clockdiv {
+        padding-left: 29%;
+    }
+}
+
+@media (max-width: 1024px) {
+    #clockdiv {
+        padding-left: 20%;
+        padding-top: 9rem;
+    }
+}
+
+@media (max-width: 770px) {
+    #clockdiv {
+        padding-left: 10%;
+        padding-top: 19%;
+    }
+}
 
 @media(max-width: 568px) {
-    .pimg1, .pimg2, .pimg3, .pimg4{
+    h2 {
+        font-size     : 18px;
+        letter-spacing: 5px;
+    }
+
+    .ptext {
+        top: 28%;
+    }
+
+    #sectionTwo h2 {
+        left: 29%;
+    }
+
+    .pimg1,
+    .pimg2,
+    .pimg3,
+    .pimg4 {
         background-attachment: scroll;
     }
 
-    #clockdiv {
-        padding-left: 15%;
-        padding-right: 13%;
+    #clockTitle h2 {
+        top : 0rem;
+        left: 33%;
     }
-    #clockdiv > div {
+
+    #clockdiv {
+        padding-top  : 6rem;
+        padding-left : 15%;
+        padding-right: 16%;
+        font-size: 18px;
+    }
+    
+    #clockdiv>div {
         margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 385px) {
+    .ptext {
+        font-size: 1rem;
+        padding-right: 16%;
+    }
+
+    #clockdiv {
+        font-size: 15px;
     }
 }
