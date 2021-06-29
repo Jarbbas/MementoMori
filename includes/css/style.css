@@ -127,7 +127,7 @@ h2 {
     font-weight : 100;
     text-align  : center;
     font-size   : 30px;
-    padding-left: 25%;
+    padding-left: 29%;
     /* padding-top: 11%; */
     padding-top: 9rem;
     text-shadow : 0 0 30px #fff;
@@ -155,15 +155,15 @@ h2 {
 
 /******************************/
 
-@media (max-width: 1440px) {
+/* @media (max-width: 1440px) {
     #clockdiv {
         padding-left: 29%;
     }
-}
+} */
 
 @media (max-width: 1024px) {
     #clockdiv {
-        padding-left: 20%;
+        padding-left: 21%;
         padding-top: 9rem;
     }
 }
