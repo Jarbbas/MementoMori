@@ -155,12 +155,6 @@ h2 {
 
 /******************************/
 
-/* @media (max-width: 1440px) {
-    #clockdiv {
-        padding-left: 29%;
-    }
-} */
-
 @media (max-width: 1024px) {
     #clockdiv {
         padding-left: 21%;
